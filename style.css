@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+    color: white;
+    height: 100%;
+    background-color: rgb(53, 51, 51);
+}
+
+/* navbar */
+
+.navbar{
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 30px ;
+    margin-left: 60px;
+}
+.logo{
+    width: 120px;
+    height: 100%;
+    
+}
+.list{
+    /* border: 1px solid yellow; */
+    list-style-type: none;
+    display: flex;
+    margin-left:90px;
+    justify-content: space-between;
+}
+.list-item{
+/*     
+    margin-right: 60px; */
+    font-weight: lighter;
+}
+.active-text{
+    color: white;
+    font-weight: 800;
+}
+.button-small{
+    border: 1px solid #b8a33d;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-left: 100px;
+    background-color: rgb(53, 51, 51);
+    color:  rgb(174, 174, 52);
+    font-size: 24px;
+    font-weight: 280;
+}
+
+.button-small {
+    background-color: #2b2922;
+    color: #b8a33d;
+    padding: 20px;
+    border: 1px solid #b8a33d;
+    font-size: 20px;
+    border-radius: 10px;
+   }
+/* Hero section */
+
+.hero{
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    color: white;
+    display: grid;
+    gap: 120px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+}
+.hero-heading{
+    font-size: 50px;
+}
+.para{
+    align-items: center;
+    /* border: 1px solid salmon; */
+    width: 540px;
+    color: rgb(202, 195, 195);
+    margin-top: 30px;
+    margin-right: 60px;
+    font-stretch: ultra-expanded;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.stretched-text {
+    letter-spacing: 3px;
+    display: inline-block;
+    /* font-size: 32px; */
+    /* transform: scaleY(0.5); */
+    transform-origin: 0 0;
+    margin-bottom: -50%;
+  }
+
+  .img-hero>img{
+    width: 100%;
+    height: 650px;
+   object-fit:cover;
+    background-size: 100px 100px;
+  }
+/* Bottom */
+
+.bot-img{ 
+   display: flex; 
+   float: right;
+   /* filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%); */
+}
+.left{
+
+    padding: 10px;
+    width: 80px;
+  background-color: #535959;
+}
+.right{
+
+    padding: 10px;
+    width: 80px;
+    background-color: #edcb40;
+}
